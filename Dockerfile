@@ -2,7 +2,7 @@ FROM node:20-alpine
 
 WORKDIR /task_manager
 
-COPY package.json  /task_managers
+COPY package.json  /task_manager
 
 RUN npm install
 
