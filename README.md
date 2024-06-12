@@ -23,5 +23,5 @@
 | all    | INIT_MONGODB_DATABASE           | Database name                                                             |
 | ---    | ---                             | ---                                                                       |
 | all    | INIT_SWAGGER                    | Swagger config, if needed use **1**, default **1**                        |
-| all    | INIT_SWAGGER_URL                | Swagger url, default **null**                                             |
+| all    | INIT_SWAGGER_URL                | Swagger url, example  default **null**                                             |
 | all    | INIT_JWT_SECRET_KEY             | JWT secret key for encripting ,default **task-managet-s@cret**            |

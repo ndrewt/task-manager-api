@@ -9,7 +9,7 @@ const config = {
     db_database: (typeof(process.env.INIT_MONGODB_DATABASE) !== 'undefined') ? process.env.INIT_MONGODB_DATABASE : null,
 
     swagger: (typeof(process.env.INIT_SWAGGER) !== 'undefined') ? parseInt(process.env.INIT_SWAGGER) : 0,
-    swagger_url: (typeof(process.env.INIT_SWAGGER_URL) !== 'undefined') ? process.env.INIT_SWAGGER_URL : null,
+    swagger_url: (typeof(process.env.INIT_SWAGGER_URL) !== 'undefined') ? process.env.INIT_SWAGGER_URL : `http://localhost:${process.env.INIT_SERVICE_PORT || 3000}`,
     jwt_secret: (typeof(process.env.INIT_JWT_SECRET_KEY) !== 'undefined') ? rocess.env.INIT_JWT_SECRET_KEY : 'task-managet-s@cret',
 
     //token
