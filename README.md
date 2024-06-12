@@ -12,6 +12,8 @@
 
 5. For start run $ npm run start
 
+6. By default swagger wiil start on http://localhost:3000/swagger
+
 # initialization parameters in docker container:
 
 | Mode   | Environment variable            | Description                                                               |
@@ -23,5 +25,5 @@
 | all    | INIT_MONGODB_DATABASE           | Database name                                                             |
 | ---    | ---                             | ---                                                                       |
 | all    | INIT_SWAGGER                    | Swagger config, if needed use **1**, default **1**                        |
-| all    | INIT_SWAGGER_URL                | Swagger url, example  default **null**                                             |
+| all    | INIT_SWAGGER_URL                | Swagger url, example  default **http://localhost:3000**                  |
 | all    | INIT_JWT_SECRET_KEY             | JWT secret key for encripting ,default **task-managet-s@cret**            |
